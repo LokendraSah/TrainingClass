@@ -1,0 +1,1 @@
+export var exported = "This data from first";

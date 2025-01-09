@@ -1,2 +1,4 @@
 import {exported} from './first.js';
-console.log("export value = ",exported);
+import getMessage from './first.js';
+const res = getMessage();
+console.log(res);

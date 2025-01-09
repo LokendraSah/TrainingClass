@@ -5,7 +5,7 @@ function multiply(){
     if(true){
         console.log(a,b,result);
         let c = 100.20;
-        const d =90;
+        const d = 90;
         var divideResult = c/d;
         console.log("Inside block:",c,d,divideResult);
     }

@@ -21,5 +21,5 @@ const p3 = {
          console.log(`Age of ${name} is ${this.age}`);
     },
 };
-const showAgeofAnish = p3.showAge;
-showAgeofAnish("Anish");
+const showAgeofAnish = p3.showAge.bind(p3,"Anish");
+showAgeofAnish();
